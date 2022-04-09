@@ -1,3 +1,3 @@
 <?php
-inclide_once('ndex.html');
+inclide_once('index.html');
 ?>
