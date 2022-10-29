@@ -9,7 +9,7 @@ body{
 }
 
 .color-green{
-    color: #00abae;
+    color: hsl(202, 66%, 48%);
 }
 
 .sub-title{
@@ -36,6 +36,11 @@ body{
     display: inline-block;
     padding: 10px;
     color: white;
+}
+
+.top {
+    text-align: center;
+    width: 100%;
 }
 
 /*[main]のスタイルシート*/
