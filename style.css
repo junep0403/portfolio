@@ -14,6 +14,7 @@ body{
 
 .sub-title{
     font-size: 32px;
+    text-align: center;
 }
 
 /*[heder]のスタイルシート */
@@ -53,21 +54,40 @@ body{
 
 /*[profile]のスタイルシート*/
 
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto 100px auto;
+    padding: 0 4%;
+    text-align: left;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h3 {
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 20px 0 30px;
+}
+
+.content img {
+    width: 350px;
+    height: 350px;
+    margin-right: 45px;
+    }
+
 .item-list {
     width: 100%;
     max-width: 348px;
     margin: 0 auto;
 }
 
-.item-list b {
-    display: block;
-    font-size: 24px;
-    font-weight: normal;
-    margin: 20px 0 30px;
-}
-
 .item-list p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: normal;
     text-align: left;
 }
@@ -239,3 +259,24 @@ margin-right:0;
     }
 
 }
+
+
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto 100px auto;
+    padding: 0 4%;
+    text-align: left;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content img {
+    width: 350px;
+    height: 350px;
+    margin-right: 45px;
+    }
