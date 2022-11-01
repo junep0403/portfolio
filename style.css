@@ -41,7 +41,10 @@ body{
 
 .top {
     text-align: center;
-    width: 100%;
+}
+
+.top img {
+    max-width: 100%;
 }
 
 /*[main]のスタイルシート*/
@@ -191,6 +194,10 @@ margin-right:0;
     }
 
 /*[profile]のスタイルシート*/    
+
+.content {
+    flex-direction: column;
+}
 
     .box-profile{
         padding:0 10px;
